@@ -7,5 +7,11 @@
 
 import Foundation
 
-print("Hello, World!")
+print("Input first value: ")
+var a: String? = readLine()
 
+print("Input second value: ")
+var b: String? = readLine()
+
+let result = sum(a, b)
+print("Sum result: \(result)")
